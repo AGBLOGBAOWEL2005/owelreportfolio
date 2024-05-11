@@ -1,0 +1,508 @@
+.portfolio{
+  background-color: black;
+  width: 77em;
+  padding: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-bottom: 30vh;
+}
+img{
+    width: 220px;
+    height: 200px;
+    float: left;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rubik+Scribble&family=Seymour+One&display=swap);
+h1{
+  
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top: 3.5vh;
+  left: 5em;
+  letter-spacing: 5px;
+  margin-bottom: 20vh;
+}
+.image1{
+  box-shadow: 0px 0px 10px #666;
+  width: 45em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left:5em;
+  transition: 1s;
+  margin-top: 20vh;
+}
+.image2{
+  clear: left;
+  box-shadow: 0px 0px 10px #666;
+  width: 45em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 10em;
+  margin-top: 10vh;
+  transition: 1s;
+}
+a{
+  position: absolute;
+  top: 50vh;
+  left: 20em;
+}
+.image3{
+  clear: left;
+  box-shadow: 0px 0px 10px #666;
+  width: 45em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left:5em;
+  transition: 1s;
+  margin-top: 5vh;
+}
+.project{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+h3{
+  position: absolute;
+  top: 0px;
+  left: 20em;
+  font-family: "Rubik+Scribble";
+}
+.image2 a{
+  display: none;
+}
+.image2:hover{
+  clear: left;
+  background-color: rgba(210, 105, 30, 0.653);
+  width: 48em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 7.5em;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+.image1:hover{
+  background-color: rgba(210, 105, 30, 0.653);
+  width: 50em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 2.5em;
+  cursor: pointer;
+}
+.image3:hover{
+  background-color: rgba(210, 105, 30, 0.653);
+  width: 50em;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 2.5em;
+  cursor: pointer;
+}
+@keyframes animation1 {
+  0% {
+    transform: translateX(0);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-0px);
+}
+100% {
+    transform: translateX(0);
+}
+}
+@keyframes animation2 {
+  0% {
+    transform: translateX(2px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-2px);
+}
+100% {
+    transform: translateX(2px);
+}
+}
+@keyframes animation3 {
+  0% {
+    transform: translateX(4px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-4px);
+}
+100% {
+    transform: translateX(4px);
+}
+}
+@keyframes animation4 {
+  0% {
+    transform: translateX(6px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-6px);
+}
+100% {
+    transform: translateX(6px);
+}
+}
+@keyframes animation5 {
+  0% {
+    transform: translateX(8px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-8px);
+}
+100% {
+    transform: translateX(8px);
+}
+}
+@keyframes animation6 {
+  0% {
+    transform: translateX(10px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-10px);
+}
+100% {
+    transform: translateX(10px);
+}
+}
+@keyframes animation7 {
+  0% {
+    transform: translateX(12px);
+}
+25% {
+    transform: translateX(10px);
+}
+75%{
+  transform: translateX(-12px);
+}
+100% {
+    transform: translateX(12px);
+}
+}
+.port1{
+  animation:  animation1 4s ease-in-out infinite;
+  text-shadow: 0 0 3px #666;
+}
+.port2{
+  text-shadow: 0 0 3px #666;
+  color: brown;
+  animation: animation2 4s ease-in-out infinite;
+}
+.port3{
+  text-shadow: 0 0 3px #666;
+  color: yellow;
+  animation: animation3 4s ease-in-out infinite;
+}
+.port4{
+color: blue;
+animation:  animation4 4s ease-in-out infinite;
+  text-shadow: 0 0 3px #666;
+}
+.port5{
+ color: aqua;
+ animation:  animation5 4s ease-in-out infinite;
+  text-shadow: 0 0 3px #666;
+}
+.port6{
+ color: blueviolet;
+ animation:  animation6 4s ease-in-out infinite;
+  text-shadow: 0 0 3px #666;
+}
+.port7{
+ color: lemonchiffon;
+ animation:  animation7 4s ease-in-out infinite;
+  text-shadow: 0 0 3px #666;
+}
+.principal{
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-left: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: black;
+}
+.monprofil{
+font-size: 20px;
+display: flex;
+float: left;
+color: white;
+}
+.contacter{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin-left: 55em;
+  width: 15em;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  color: white;
+  cursor: pointer;
+  margin-top: 10vh;
+}
+.contenu{
+  margin-right: 15vh;
+  position: absolute;
+  top: 11vh;
+  left: -5em;
+  width:22em ;
+  height: 25vh;
+  color: blue;
+  box-shadow: 0px 0px 10px #666;
+  padding: 20px;
+  display: none;
+  border-radius: 20px;
+  transition: 1s ease-in-out;
+  background-color: white;
+  font-size: 20px;
+}
+.email{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 2vh;
+}
+.Tel{
+  margin-left: 2vh;
+  
+}
+.mail{
+  color: black;
+}
+.contacter:hover .contenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.contacter:hover{
+letter-spacing: 2px;
+width: 20em;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 53em;
+}
+.images{
+  clear: left;
+  border-radius: 100px;
+  margin-top: 5vh;
+  margin-left: 2vh;
+}
+.nom{
+  font-style: oblique;
+  color: red;
+  transition: 1s ease-in-out;
+}
+.nom:hover{
+  letter-spacing: 0.3px;
+}
+.presentation{
+  width: 30em;
+  height: 50vh;
+  padding: 10vh;
+  color: white;
+  box-shadow: 0px 0px 10px #666;
+}
+.Decouvertes{
+  position: relative;
+  left: 50vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
+.decouvre{
+  width: 10em;
+  height: 10vh;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.present{
+  clear: left;
+  position: absolute;
+  left: 20em;
+  top: 12vh;
+  width: 15em;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1111;
+  display: none;
+  transition: 1s ease-in-out;
+}
+.decouvre:hover .present {
+  display: flex;
+}
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.Decouvrez{
+  height: 40vh;
+  float: left;
+  padding: 10vh;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0vh;
+  font-size: 45px;
+  color: black;
+  z-index: 1;
+}
+.page{
+  height: 40vh;
+  display: flex;
+  float: left;
+  margin-left: 17em;
+  margin-top: 0vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Decouvrez2{
+  height: 40vh;
+  padding: 10vh;
+  margin-left: 53em;
+  margin-right: 0em;
+  margin-top: 25vh;
+  font-size: 45px;
+  color: black;
+  z-index: 1;
+}
+.titre1{
+  position: absolute;
+  left: 10em;
+  top: 3vh;
+  font-size: 30px;
+  color: black;
+  z-index: 1;
+}
+.electricite{
+  height: 40vh;
+  display: flex;
+  float: left;
+  margin-left: 28em;
+  margin-top: 0vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.titre2{
+  position: absolute;
+  left: 10em;
+  top: 3vh;
+  font-size: 30px;
+  color: black;
+  z-index: 1;
+}
+.slider-1{
+  border-radius: 20px;
+  background-size: cover;
+   box-shadow: 0px 0px 10px #666;
+   background-color: rgba(255, 255, 255, 0.906);
+   width: 50em;
+   height: 80vh;
+   margin-top: 5vh;
+   margin-left: 15em;
+   margin-right: 5em;
+   overflow: hidden;
+}
+.slider{
+  width: calc(50em*4);
+  animation: slider-1 20s infinite ease-in-out;
+}
+@keyframes slider-1{
+0%,
+10%{
+  transform: translateX(0);
+}
+  25%,
+  40%{
+    transform: translateX(-50em);
+  }
+  50%,
+  70%{
+    transform: translateX(-100em);
+  }
+  75%,
+  100%{
+    transform: translateX(-150em);
+  }
+}
